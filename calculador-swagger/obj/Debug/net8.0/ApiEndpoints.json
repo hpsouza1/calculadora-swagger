@@ -1,5 +1,68 @@
 [
   {
+    "ContainingType": "calculador_swagger.Controllers.CalculadoraController",
+    "Method": "Dividir",
+    "RelativePath": "api/Calculadora/dividir",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numero2",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "calculador_swagger.Controllers.CalculadoraController",
+    "Method": "Somar",
+    "RelativePath": "api/Calculadora/somar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numero2",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "calculador_swagger.Controllers.CalculadoraController",
+    "Method": "Subtrair",
+    "RelativePath": "api/Calculadora/subtrair",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numero2",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "calculador_swagger.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

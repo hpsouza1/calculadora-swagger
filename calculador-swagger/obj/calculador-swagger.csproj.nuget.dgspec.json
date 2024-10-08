@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique Pimenta\\source\\repos\\calculador-swagger\\calculador-swagger\\calculador-swagger.csproj": {}
+    "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique Pimenta\\source\\repos\\calculador-swagger\\calculador-swagger\\calculador-swagger.csproj": {
+    "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique Pimenta\\source\\repos\\calculador-swagger\\calculador-swagger\\calculador-swagger.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj",
         "projectName": "calculador-swagger",
-        "projectPath": "C:\\Users\\Henrique Pimenta\\source\\repos\\calculador-swagger\\calculador-swagger\\calculador-swagger.csproj",
+        "projectPath": "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj",
         "packagesPath": "C:\\Users\\Henrique Pimenta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique Pimenta\\source\\repos\\calculador-swagger\\calculador-swagger\\obj\\",
+        "outputPath": "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henrique Pimenta\\AppData\\Roaming\\NuGet\\NuGet.Config",

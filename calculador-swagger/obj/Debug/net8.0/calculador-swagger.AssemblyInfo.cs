@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calculador-swagger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5167baa48d4dc7cb3ec79f8e05d128a63daaca1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("calculador-swagger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calculador-swagger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
