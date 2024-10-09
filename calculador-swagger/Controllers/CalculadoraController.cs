@@ -1,83 +1,75 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
+using System.ComponentModel.DataAnnotations;
 
-// usar data notation para validar os parâmetros
-namespace calculador_swagger.Controllers 
+namespace calculador_swagger.Controllers
 {
+    public class OperacaoRequest
+    {
+        [Required(ErrorMessage = "O campo numero1 é obrigatório.")]
+        [Range(double.MinValue, double.MaxValue, ErrorMessage = "O campo numero1 deve ser um número válido.")]
+        public double Numero1 { get; set; }
+
+        [Required(ErrorMessage = "O campo numero2 é obrigatório.")]
+        [Range(double.MinValue, double.MaxValue, ErrorMessage = "O campo numero2 deve ser um número válido.")]
+        public double Numero2 { get; set; }
+    }
+
     [ApiController]
     [Route("api/[controller]")]
     public class CalculadoraController : ControllerBase
     {
-        private bool ValidarNumero(string valor)
-        {
-            return double.TryParse(valor, NumberStyles.Any, CultureInfo.InvariantCulture, out _);
-        }   
-
         [HttpGet("somar")]
-        public IActionResult Somar([FromQuery] string numero1, [FromQuery] string numero2)
+        public IActionResult Somar([FromQuery] OperacaoRequest request)
         {
-            if (!ValidarNumero(numero1) || !ValidarNumero(numero2))
+            if (!ModelState.IsValid)
             {
-                return BadRequest("Os parâmetros devem ser números válidos.");
+                return BadRequest(ModelState);
             }
 
-            double num1 = double.Parse(numero1, CultureInfo.InvariantCulture);
-            double num2 = double.Parse(numero2, CultureInfo.InvariantCulture);
-            double resultado = num1 + num2;
-
+            double resultado = request.Numero1 + request.Numero2;
             return Ok(new { resultado });
         }
 
         [HttpGet("subtrair")]
-        public IActionResult Subtrair([FromQuery] string numero1, [FromQuery] string numero2)
+        public IActionResult Subtrair([FromQuery] OperacaoRequest request)
         {
-            if (!ValidarNumero(numero1) || !ValidarNumero(numero2))
+            if (!ModelState.IsValid)
             {
-                return BadRequest("Os parâmetros devem ser números válidos.");
+                return BadRequest(ModelState);
             }
 
-            double num1 = double.Parse(numero1, CultureInfo.InvariantCulture);
-            double num2 = double.Parse(numero2, CultureInfo.InvariantCulture);
-            double resultado = num1 - num2;
-
+            double resultado = request.Numero1 - request.Numero2;
             return Ok(new { resultado });
         }
 
         [HttpGet("dividir")]
-        public IActionResult Dividir([FromQuery] string numero1, [FromQuery] string numero2)
+        public IActionResult Dividir([FromQuery] OperacaoRequest request)
         {
-            if (!ValidarNumero(numero1) || !ValidarNumero(numero2))
+            if (!ModelState.IsValid)
             {
-                return BadRequest("Os parâmetros devem ser números válidos.");
+                return BadRequest(ModelState);
             }
 
-            double num1 = double.Parse(numero1, CultureInfo.InvariantCulture);
-            double num2 = double.Parse(numero2, CultureInfo.InvariantCulture);
-
-            if (num2 == 0)
+            if (request.Numero2 == 0)
             {
                 return BadRequest("Divisão por zero não é permitida.");
             }
 
-            double resultado = num1 / num2;
+            double resultado = request.Numero1 / request.Numero2;
             return Ok(new { resultado });
         }
-
 
         [HttpGet("multiplicar")]
-        public IActionResult Multiplicar([FromQuery] string numero1, [FromQuery] string numero2)
+        public IActionResult Multiplicar([FromQuery] OperacaoRequest request)
         {
-            if (!ValidarNumero(numero1) || !ValidarNumero(numero2))
+            if (!ModelState.IsValid)
             {
-                return BadRequest("Os parâmetros devem ser números válidos.");
+                return BadRequest(ModelState);
             }
 
-            double num1 = double.Parse(numero1, CultureInfo.InvariantCulture);
-            double num2 = double.Parse(numero2, CultureInfo.InvariantCulture);
-            double resultado = num1 * num2;
-
+            double resultado = request.Numero1 * request.Numero2;
             return Ok(new { resultado });
         }
-
     }
 }
+    

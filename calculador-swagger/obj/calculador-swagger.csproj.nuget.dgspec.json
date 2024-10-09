@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj": {}
+    "C:\\Users\\hpsouza1\\OneDrive - Stefanini\\Documentos\\Stefanini\\C# projetcs\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj": {
+    "C:\\Users\\hpsouza1\\OneDrive - Stefanini\\Documentos\\Stefanini\\C# projetcs\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj",
+        "projectUniqueName": "C:\\Users\\hpsouza1\\OneDrive - Stefanini\\Documentos\\Stefanini\\C# projetcs\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj",
         "projectName": "calculador-swagger",
-        "projectPath": "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj",
-        "packagesPath": "C:\\Users\\Henrique Pimenta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique Pimenta\\Documents\\Henrique\\Stefanini\\Back\\calculadora-swagger\\calculador-swagger\\obj\\",
+        "projectPath": "C:\\Users\\hpsouza1\\OneDrive - Stefanini\\Documentos\\Stefanini\\C# projetcs\\calculadora-swagger\\calculador-swagger\\calculador-swagger.csproj",
+        "packagesPath": "C:\\Users\\hpsouza1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hpsouza1\\OneDrive - Stefanini\\Documentos\\Stefanini\\C# projetcs\\calculadora-swagger\\calculador-swagger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Henrique Pimenta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hpsouza1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

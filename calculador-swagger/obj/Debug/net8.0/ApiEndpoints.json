@@ -8,13 +8,34 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "numero1",
-        "Type": "System.String",
+        "Name": "Numero1",
+        "Type": "System.Double",
         "IsRequired": false
       },
       {
-        "Name": "numero2",
-        "Type": "System.String",
+        "Name": "Numero2",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "calculador_swagger.Controllers.CalculadoraController",
+    "Method": "Multiplicar",
+    "RelativePath": "api/Calculadora/multiplicar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Numero1",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Numero2",
+        "Type": "System.Double",
         "IsRequired": false
       }
     ],
@@ -29,13 +50,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "numero1",
-        "Type": "System.String",
+        "Name": "Numero1",
+        "Type": "System.Double",
         "IsRequired": false
       },
       {
-        "Name": "numero2",
-        "Type": "System.String",
+        "Name": "Numero2",
+        "Type": "System.Double",
         "IsRequired": false
       }
     ],
@@ -50,13 +71,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "numero1",
-        "Type": "System.String",
+        "Name": "Numero1",
+        "Type": "System.Double",
         "IsRequired": false
       },
       {
-        "Name": "numero2",
-        "Type": "System.String",
+        "Name": "Numero2",
+        "Type": "System.Double",
         "IsRequired": false
       }
     ],
